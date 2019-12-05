@@ -6,7 +6,7 @@
 
 (function($) {
 
-	var	$window = $(window),
+	let	$window = $(window),
 		$body = $('body'),
 		$nav = $('#nav');
 
@@ -25,9 +25,9 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
-
+	
 	// Nav.
-		var $nav_a = $nav.find('a');
+		let $nav_a = $nav.find('a');
 
 		$nav_a
 			.addClass('scrolly')
@@ -53,7 +53,7 @@
 			})
 			.each(function() {
 
-				var	$this = $(this),
+				let	$this = $(this),
 					id = $this.attr('href'),
 					$section = $(id);
 
@@ -93,7 +93,7 @@
 					});
 
 			});
-
+		
 	// Scrolly.
 		$('.scrolly').scrolly();
 
@@ -121,3 +121,19 @@
 				});
 
 })(jQuery);
+//slideshow
+
+// let slideIndex = 0;
+
+// function showSlides() {
+//   let i;
+//   let slides = document.getElementsByClassName("mySlidesShow");
+//   for (let i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none"; 
+//   }
+//   slideIndex++;
+//   if (slideIndex > slides.length) {slideIndex = 1} 
+// //   slides[slideIndex-1].style.display = "block"; 
+//   setTimeout(showSlides, 4000);}
+  
+//   showSlides();

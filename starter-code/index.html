@@ -9,7 +9,6 @@
 		<title>Elizabeth-Kavalski-Profile</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
 		<link rel="stylesheet" href="assets/css/reset.css"/>
 		<link rel="stylesheet" href="assets/css/base.css" />
 		<link rel="stylesheet" href="assets/css/layout.css" />
@@ -68,7 +67,22 @@
 							<header>
 								<h2 class="alt">Hi! I'm <strong>Liz!</strong> a Software Developer hit the the button below to veiw my portfolio projects!</p>
 							</header>
-
+								<div class= "slideShow">
+									<div class= "mySlideShow">
+										<img src= "images/IMG_0237.JPG" alt="Skillet">
+									</div>
+									<div class= "mySlideShow">
+										<img src= "images/DSC01593.jpg" alt="hiking">
+									</div>
+									<div class= "mySlideShow">
+											<img src= "images/Spring to Fall 2013 285.jpg" alt="Scotland">
+									</div>									
+									<a class = "prev" onclick "plusSlides(-1)"> < </a>
+									<a class = "next" onclick "plusSlides(1)"> > </a>
+								</div>
+								<span class="dot" onclick="currentSlide(1)"></span>
+								<span class="dot" onclick="currentSlide(2)"></span>
+								<span class="dot" onclick="currentSlide(3)"></span>
 							<footer>
 								<a href="#portfolio" class="button scrolly">Lets Go!</a>
 							</footer>
@@ -125,7 +139,7 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/beach.jpg" alt="" /></a>
 										<header>
-											<h3>Orther Project</h3>
+											<h3>Other Project</h3>
 										</header>
 									</article>
 								</div>
@@ -182,16 +196,18 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Untitled. All rights reserved.</li>
 					</ul>
 
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+			<script src="  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/jquery.scrollex@0.2.1/jquery.scrollex.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/gh/ajlkn/responsive-tools@1.0/dist/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
