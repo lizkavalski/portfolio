@@ -42,6 +42,9 @@ p, ul, ol, dl, table {
 br.clear {
     clear: both;
 }
+#profilePic{
+	transform: rotate(90deg);
+}
 @media screen and (min-width: 961px) and (max-width: 1880px) {
 .container {
     width: 1200px;
