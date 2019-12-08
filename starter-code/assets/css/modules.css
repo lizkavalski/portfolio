@@ -79,7 +79,7 @@ input[type="button"],
     input[type="reset"]:hover,
     button:hover,
     .button:hover {
-        background-color: #9ececc;
+        background-color: #e6b4dd;
     }
 
     input[type="button"]:active,
@@ -87,13 +87,13 @@ input[type="button"],
     input[type="reset"]:active,
     button:active,
     .button:active {
-        background-color: #7eaeac;
+        background-color: #ec80c8;
     }
 .item {
 box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 margin-bottom: 40px;
 }
-
+ 
 .item header {
 background: #fff;
 margin: 0;
@@ -112,7 +112,7 @@ table tbody tr:nth-child(2n+2) {
     background: #f4f4f4;
 }
 .icon > .label {
-    display: none;
+    display: inline-block;
 }
 #footer .copyright {
     cursor: default;
