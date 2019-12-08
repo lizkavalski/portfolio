@@ -233,7 +233,7 @@ min-height: 48px;
 cursor: default;
 }
 #logo h1 {
-    grid-columns: 2/6; 
+    grid-column: 2/6; 
     color: #fff;
     font-weight: 600;
     font-size: 1em;
