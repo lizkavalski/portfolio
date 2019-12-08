@@ -34,7 +34,7 @@ header > p {
 }
 a:hover {
     color: #E27689;
-    border-bottom-color: rgba(255, 255, 255, 0);
+    border-bottom-color: darkmagenta;
 }
 p, ul, ol, dl, table {
     margin-bottom: 2em;
@@ -61,7 +61,11 @@ input[type="button"],
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
+<<<<<<< HEAD
 		background-color:  #f56be2;
+=======
+		background-color: pink;
+>>>>>>> 0f8b9679b91104ca610cea50a7b85504d650ebff
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -124,7 +128,7 @@ table tbody tr:nth-child(2n+2) {
     padding: 4em 0;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
     text-align: center;
-    background-image: url("images/overlay.png");
+  
 }
 
 #main > section.dark {
@@ -158,7 +162,7 @@ table tbody tr:nth-child(2n+2) {
 
 #main > section.one {
     background-color: #81918E;
-    background-image: url("../../images/banner.jpg");
+ 
 }
 
 #main > section.two {
@@ -212,8 +216,61 @@ table tbody tr:nth-child(2n+2) {
 			#main section.cover {
 				padding: 5em 0;
 			}
+			.slideshow{
+				max-width: 30em;
+			}
+			mySlideShow{
+				display: none;
+			}
+				.prev, .next {
+					cursor: pointer;
+					position: inherit;
+					top: 50%;
+					width: auto;
+					padding: 2em;
+					color: white;
+					font-weight: bold;
+					transition: 0.6s ease;
+					user-select: none;
+				}
+					img{
+						width: 25em;
 
+					}
+				.prev:hover, .next:hover {
+					background-color: rgba(0,0,0,0.8);
+				}
+				.dot {
+					cursor: pointer;
+					height: 1em;
+					width: 1em;
+					background-color: #bbb;
+					border-radius: 50%;
+					display: inline-block;
+					transition: background-color 0.6s ease;
+				}
+				
+				.active, .dot:hover {
+					background-color: #717171;
+				}
+				.fade {
+					-webkit-animation-name: fade;
+					-webkit-animation-duration: 1.5s;
+					animation-name: fade;
+					animation-duration: 1.5s;
+				}
+				
+				@-webkit-keyframes fade {
+					from {opacity: .4} 
+					to {opacity: 1}
+				}
+				
+				@keyframes fade {
+					from {opacity: .4} 
+					to {opacity: 1}
+				}
 	}
+
 
 /* Narrow */
 
@@ -267,7 +324,7 @@ table tbody tr:nth-child(2n+2) {
 						margin-left: -1.25em;
 						line-height: 2.25em;
 					}
-
+				}
 		/* Footer */
 
 			#footer {
@@ -280,8 +337,6 @@ table tbody tr:nth-child(2n+2) {
 				margin-left: 20%;
 			}
 
-	}
-
 /* Narrower */
 
 	#headerToggle {
@@ -293,7 +348,7 @@ table tbody tr:nth-child(2n+2) {
 		/* Basic */
 
 			html, body {
-				overflow-x: hidden;
+				overflow-y: hidden;
 			}
 
 			body, input, textarea, select {
@@ -320,10 +375,10 @@ table tbody tr:nth-child(2n+2) {
 				width: 1.75em;
 				font-size: 1.25em;
 			}
-
+		
 		/* Header */
 
-			#header {
+			/* #header {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -359,7 +414,7 @@ table tbody tr:nth-child(2n+2) {
 					box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.15);
 					padding-top: 2em;
 					margin-top: 2em;
-					position: relative;
+					position: relative; */
 				}
 
 			#logo {
@@ -369,36 +424,16 @@ table tbody tr:nth-child(2n+2) {
 			#nav ul li a {
 				padding: 0.5em 1.25em 0.5em 1.25em;
 			}
-
-			#headerToggle {
-				-moz-backface-visibility: hidden;
-				-webkit-backface-visibility: hidden;
-				-ms-backface-visibility: hidden;
-				backface-visibility: hidden;
-				-moz-transition: -moz-transform 0.5s ease;
-				-webkit-transition: -webkit-transform 0.5s ease;
-				-ms-transition: -ms-transform 0.5s ease;
-				transition: transform 0.5s ease;
-				display: block;
-				height: 2.25em;
-				left: 0;
-				position: fixed;
-				top: 0;
-				width: 3.25em;
-				z-index: 10001;
+			
+			.SlideShow{
+				width: 20em;
 			}
-
-				#headerToggle .toggle {
-					position: absolute;
-					left: 0;
-					top: 0;
-					width: 100%;
-					height: 100%;
-					outline: 0;
-					border: 0;
+				.mySlideShow, img {
+					width: 15em;
+					margin: auto
 				}
 
-					#headerToggle .toggle:before {
+					/* #headerToggle .toggle:before {
 						font-family: FontAwesome;
 						text-decoration: none;
 						font-style: normal;
@@ -440,7 +475,7 @@ table tbody tr:nth-child(2n+2) {
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
-			}
+			} */ */
 
 		/* Footer */
 
@@ -492,14 +527,19 @@ table tbody tr:nth-child(2n+2) {
 			.container {
 				padding: 0 15px 0 15px;
 			}
-
+			.SlideShow{
+				width: 10em;
+			}
+				.mySlideShow, img {
+					width: 10em;
+				}
 		/* List */
 
 			ul.icons a {
 				width: 2em;
 				font-size: 1.25em;
 			}
-
+			
 		/* Main */
 
 			#main > section {
