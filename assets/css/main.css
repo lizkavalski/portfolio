@@ -2234,8 +2234,9 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/newBanner.jpg");
+				background-image: url("../../images/coding.gif");
 			}
+			
 
 			#main > section.two {
 				background-color: #f5fafa;
