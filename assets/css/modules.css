@@ -156,6 +156,7 @@ table tbody tr:nth-child(2n+2) {
     background-size: cover;
     background-position: center center;
 }
+
 #main > section.dark{
 	background-color: #81918E;
 	background-image: url("/images/coding.gif");

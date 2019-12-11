@@ -2234,7 +2234,11 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
+<<<<<<< HEAD
 				background-image: url("/images/coding.gif");
+=======
+				background-image: url("../../images/coding.gif");
+>>>>>>> b34bf1e935c577e1f7a272ee1a34c2595b73a178
 			}
 			
 
