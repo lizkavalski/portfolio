@@ -129,7 +129,8 @@ table tbody tr:nth-child(2n+2) {
 
 #main > section.dark {
     color: #ddd;
-    color: rgba(255, 255, 255, 0.75);
+	color: rgb(117, 1, 107);
+	font-family: 'Lato', sans-serif;
 }
 
     #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -155,10 +156,21 @@ table tbody tr:nth-child(2n+2) {
     background-size: cover;
     background-position: center center;
 }
+#main > section.dark{
+	background-color: #81918E;
+	background-image: url("/images/coding.gif");
+	/* filter: blur(2em); 
+	-webkit-filter: blur(2px); */
+}
 
-#main > section.one {
-    background-color: #81918E;
-	background-image: url("../../images/computerScreen.gif");
+#topOfPage {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+	border: .25em ridge #f1f1f1;
+	text-align: center;
+	border-radius:1em;
+	padding-bottom: 2em;	
+	filter:none;
 }
 main > section.two {
     background-color: #f5fafa;
@@ -345,7 +357,7 @@ main > section.two {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/newBanner.png");
+				background: #222729 url("/images/coding.gif");
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
