@@ -142,29 +142,33 @@ table tbody tr:nth-child(2n+2) {
         border-color: inherit;
     }
 
-    #main > section.dark a {
+    #main >  a {
         color: #fff;
         border-color: inherit;
     }
 
-        #main > section.dark a:hover {
+        #main >  a:hover {
             border-bottom-color: rgba(255, 255, 255, 0);
         }
 
 #main > section.cover {
     padding: 10em 0;
     background-size: cover;
-    background-position: center center;
+		background-position: center;
 }
 
-#main > section.dark{
+#main > section.container{
 	background-color: #81918E;
-	background-image: url("/images/coding.gif");
-	/* filter: blur(2em); 
-	-webkit-filter: blur(2px); */
 }
-
-#topOfPage {
+#main > .backgroud-img{
+	background-image: url("/images/coding.gif");
+	filter: blur(2em); 
+	-webkit-filter: blur(2px); 
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topOfPage {
 	background-color: rgb(0,0,0); /* Fallback color */
 	background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
 	border: .25em ridge #f1f1f1;
