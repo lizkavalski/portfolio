@@ -170,7 +170,7 @@ table tbody tr:nth-child(2n+2) {
 }
 .topOfPage {
 	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+	background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
 	border: .25em ridge #f1f1f1;
 	text-align: center;
 	border-radius:1em;
